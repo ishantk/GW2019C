@@ -39,7 +39,7 @@ z = 30
 print("is x greater than y?",x>y)
 print(x>y)
 print(x==y)
-print(x!=y)
+print(">>x!=y",x!=y)
 
 # Logical Operators
 # and or
