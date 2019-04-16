@@ -5,11 +5,12 @@ print(type(data))
 num1 = int(input("Enter a Number: "))
 num2 = int(input("Enter another Number: "))
 
-num3 = num1 + num2 # -
+num3 = num1 + num2
 num4 = num1 * num2
 num5 = num1 / num2
 num6 = num1 // num2
 num7 = num1 % num2
+num8 = num1 - num2
 
 
 # print("sum of",num1,"and",num2,"is:",num3)
