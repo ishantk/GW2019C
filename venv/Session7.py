@@ -29,3 +29,4 @@ while ans == "yes":
 
 
 print("New Temperature is:",increaseTemp(5))
+print("Area of Rectangle with l:12 and b:13 is:",areaOfRectangle(12, 13))

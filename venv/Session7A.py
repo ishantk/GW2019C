@@ -15,9 +15,17 @@ def showGreatestNum(num1, num2):
 def addNumbers(num1, num2):
     num3 = num1 + num2
     return num3
+    # print("num3 is:",num3)
+
 
 sayHello()
 showGreatestNum(10, 20)
-result = addNumbers(11, 11)
-print("Result is:",result)
-print("Result is:",addNumbers(12,12))
+# result = addNumbers(11, 11)
+# print("Result is:",result)
+# print("Result is:",addNumbers(12,12))
+result = addNumbers(10, 20)
+print(result)
+if result %2 == 0:
+    print("Even Number")
+else:
+    print("Odd Number")
