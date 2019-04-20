@@ -1,10 +1,10 @@
-# def checkNumber(num):
-    # return True/False
+def checkNumber(num):
+    return True
 
 def filterNumbers(numbers):
     for i in range(0, len(numbers)):
 
-        if what?:
+        if checkNumber(numbers[i]):
             numbers[i] = 1
         else:
             numbers[i] = 0
