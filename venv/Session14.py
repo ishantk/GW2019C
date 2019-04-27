@@ -39,7 +39,11 @@ total = 0
 
 for i in range(0, len(orders)):
     orders[i].showOrder()
-    print(orders[i].calculatePrice())
+    # print(orders[i].calculatePrice())
+    total = total + orders[i].calculatePrice()
+
+print("Total is: ",total)
+
 
 # FLAT50 -> 50% off in total value of orders is greater than 500 upto 250
 # HI5    -> 25% off on all the total prices not greater than 1000
