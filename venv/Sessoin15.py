@@ -118,7 +118,6 @@ m1 = Mobile(101, "iPhoneX", 80000, "Apple", "iOS", 4)
 t1 = TV(201, "Samsung LED TV", 50000, "Samsung", 50, "OLED")
 s1 = Shoe(301, "Alphabounce", 8000, "Adidas", 8, "Black")
 
-
 m1.showMobileDetails()
 t1.showTVDetails()
 s1.showShoeDetails()
