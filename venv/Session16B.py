@@ -21,3 +21,6 @@ s1.show()
 s2.show()
 s3.show()
 s4.show()
+
+class CA:
+    pass
