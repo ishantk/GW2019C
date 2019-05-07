@@ -28,3 +28,12 @@ for com in combinations:
 
 print(items)
 print(coms)
+
+maxValue = max(items)
+index = items.index(maxValue)
+
+print(maxValue)
+print(index)
+
+print(coms[index])
+print(items[index])
