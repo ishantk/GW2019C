@@ -45,6 +45,7 @@ print(c1.__dict__)
 save = input("Do you wish to save customer in database (yes/no) ?")
 update = input("Do you wish to update customer in database (yes/no) ?")
 delete = input("Do you wish to delete customer in database (yes/no) ?")
+show = input("Do you wish to view all customers in database (yes/no) ?")
 
 if save == "yes":
     # 1. Write SQL Statement
@@ -87,3 +88,19 @@ if delete == "yes":
     con.commit()
 
     print(id, " Deleted from Database")
+
+if show == "yes":
+    # 1. Write SQL Statement
+    sql = "select * from Customer"
+
+    # 2. Create Connection with Database
+    con = mysql.connector.connect(user="root", password="", host="localhost", database="auridb")
+
+    # 3, Execute SQL Statement
+    cursor = con.cursor()
+    cursor.execute(sql)
+    data = cursor.fetchall()
+    # print(data)
+
+    for row in data:
+        print(row)
