@@ -1,5 +1,8 @@
 from tkinter import *
 import mysql.connector
+# import Session22
+from Session22 import showUpdateWindow
+from Session22 import showDeleteWindow
 
 
 def clickHandler():
@@ -50,6 +53,12 @@ entryEmail.pack()
 
 btnAddCustomer = Button(window, text="Add Customer", command=clickHandler)
 btnAddCustomer.pack()
+
+btnUpdateCustomer = Button(window, text="Update Customer", command=showUpdateWindow)
+btnUpdateCustomer.pack()
+
+btnDeleteCustomer = Button(window, text="Delete Customer", command=showDeleteWindow)
+btnDeleteCustomer.pack()
 
 
 window.mainloop()
